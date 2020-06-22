@@ -8,8 +8,8 @@ pipeline {
     stages {
         stage ('Initialize') {
             steps {
-                echo "MAVEN_HOME"
-                echo "JAVA_HOME"
+                echo "MAVEN_HOME = $MAVEN_HOME"
+                echo "JAVA_HOME = $JAVA_HOME"
             }
         }
         
