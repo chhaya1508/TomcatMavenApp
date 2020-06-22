@@ -15,7 +15,7 @@ pipeline {
         
         stage('Build') {
             steps {
-                echo 'this is a minimal build'
+                   bat " mvn clean install"
             }
          }
        }
